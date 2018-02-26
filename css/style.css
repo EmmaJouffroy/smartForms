@@ -29,6 +29,10 @@ input {
   border-bottom: 1px solid black !important;
 }
 
+.row {
+  margin-right: 0px !important;
+}
+
 /* Style header  */
 
 .navbar {
@@ -42,7 +46,7 @@ input {
   height: 100vh;
   background-image: url(../images/indeximg.png);
   background-repeat: no-repeat;
-  background-size: auto auto;
+  background-size: cover;
   color: #ffffff;
 }
 

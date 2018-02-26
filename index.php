@@ -19,9 +19,9 @@
             <h1>Bienvenue sur SmartForm's</h1>
             <h3>Pour créer plus facilement vos formulaires</h3>
             <ul>
-              <li>Créez simplement vos formulaires</li>
-              <li>Visualisez les résultats de vos campagnes</li>
-              <li>Téléchargez ces résultats au format CSV</li>
+              <li>° Créez simplement vos formulaires</li>
+              <li>° Visualisez les résultats de vos campagnes</li>
+              <li>° Téléchargez ces résultats au format CSV</li>
             </ul>
           </div>
         </div>

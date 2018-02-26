@@ -10,32 +10,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <?php require("../includes/navbar.php") ?>
     <?php require("../includes/connect.php") ?>
-    <div class="left_part">
-      <a href="../images/logo.png"></a>
-      <h1>Bienvenue sur SmartForm's</h1>
-      <h3>Pour créer plus facilement vos formulaires</h3>
-      <ul>
-        <li>Créez simplement vos formulaires</li>
-        <li>Visualisez les résultats de vos campagnes</li>
-        <li>Téléchargez ces résultats au format CSV</li>
-      </ul>
+    <div class="fluid-container">
+  <div class="row">
+    <div class="col-md-5">
+      <div class="left_part">
+        <a href="../images/logo.png"></a>
+        <h1>Bienvenue sur SmartForm's</h1>
+        <h3>Pour créer plus facilement vos formulaires</h3>
+        <ul>
+          <li>° Créez simplement vos formulaires</li>
+          <li>° Visualisez les résultats de vos campagnes</li>
+          <li>° Téléchargez ces résultats au format CSV</li>
+        </ul>
+      </div>
     </div>
-    <div class="right_part">
-      <h2>Connexion</h2><a href="../index.php"> / Inscription</a>
-      <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">@mail</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <button type="submit" class="btn btn-primary">Connexion</button>
-      </form>
+    <div class="col-md-7">
+      <div class="right_part">
+        <h2>Connexion</h2><a href="../index.php"> / Inscription</a>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">@mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <button type="submit" class="btn btn-primary">Connexion</button>
+        </form>
+      </div>
     </div>
+  </div>
+</div>
 </body>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="js/functions.js"></script>

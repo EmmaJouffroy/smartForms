@@ -2,7 +2,7 @@
 <html>
   <head>
     <link href="http://fonts.googleapis.com/css?family=Fenix" rel="stylesheet" type="text/css">
-    <link href= "/css/style.css" rel="stylesheet" type="text/css">
+    <link href= "../css/style.css" rel="stylesheet" type="text/css">
      <?php require( "vendor/cdnBootstrapLink.php" )?>
     <meta charset="utf-8">
     <title></title>
@@ -11,7 +11,6 @@
   </head>
   <body>
     <?php require("includes/connect.php") ?>
-    <?php require("includes/navbar.php") ?>
 <a href="images/logo.png"></a>
 <h1>Bienvenue sur SmartForm's</h1>
 <h3>Pour créer plus facilement vos formulaires</h3>
@@ -39,12 +38,8 @@
   	<input type="checkbox" id="droits" name="droits" class="switch" />
   	<label for="droits">Utilisateur</label>
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary">Inscription</button>
 </form>
-
-  <footer>
-
-  </footer>
 </body>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="js/functions.js"></script>

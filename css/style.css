@@ -38,6 +38,14 @@ input {
   background-size: auto;
 }
 
+.left_part {
+  height: 100vh;
+  background-image: url(../images/indeximg.png);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  color: #ffffff;
+}
+
 
 
 
@@ -59,7 +67,7 @@ input {
 
 .paper-toggle input:empty
 {
-	margin-left: -999px;
+	display: none !important;
 }
 
 .paper-toggle input:empty ~ label
@@ -121,4 +129,8 @@ input.switch:empty ~ label:after
 	left: 140px;
   background-color: #0f9d58;
   border-color: #0f9d58;
+}
+
+.form-control {
+  border-radius: 0px !important;
 }

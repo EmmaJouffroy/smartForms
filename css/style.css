@@ -2,7 +2,7 @@
 
 /* général */
 
-html, body {
+.right_part {
   display: flex;
   min-height: 100%;
   justify-content: center;
@@ -22,6 +22,24 @@ h2 {
 h4 {
   color: #999;
 }
+input {
+  border: 0 !important;
+  outline: 0 !important;
+  background: transparent !important;
+  border-bottom: 1px solid black !important;
+}
+
+/* Style header  */
+
+.navbar {
+  height: 100px;
+  background-image: url(../images/header.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+
+
 
 /* Boutton toggle inscription  */
 
